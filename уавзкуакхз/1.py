@@ -2,10 +2,10 @@
 
 def encode_shifr_caesar():
     pass
-
+encode_shifr_caesar = int(input('Введите тест который хотите зашифровать'))
 def decode_shifr_caesar():
     pass
-
+decode_shifr_caesar = int(input('Введите шифр который хотите расшифровать'))
 def privetstvie():
     name = (input('Как вас зовут ? '))
     print('Привет',name,)
@@ -14,4 +14,5 @@ def privetstvie():
     name_3 =(input ('Если зашифровывать, то выберете  шифр: Шифр Цезаря, Шифр Вижинера,  Шифр Вернама,'))
     if 1:
         print(' Шифр Цезаря')
+        
 
